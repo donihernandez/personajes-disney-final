@@ -1,0 +1,52 @@
+.hero {
+    height: 80vh;
+    width: 100%;
+    background: url("/public/hero.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.blur {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4); 
+  backdrop-filter: blur(3px); 
+  height: 80vh;
+  width: 100%;
+}
+
+.hero__content {
+    position: absolute;
+    padding: 0 5rem;
+    color: #fff;
+}
+.hero__title {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero__title span {
+    color: #ffc107;
+}
+
+.hero__subtitle {
+     font-size: 1.2em;
+     margin-bottom: 1.5em;
+}
+
+.hero__button {
+   color: #fff;
+   text-decoration: none;
+    background: #000;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.4s all;
+}    
+
+.hero__button:hover {
+    background: #fff;
+    color: #000;
+}

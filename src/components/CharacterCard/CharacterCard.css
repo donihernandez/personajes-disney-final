@@ -1,0 +1,61 @@
+.character__card {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.4s all;
+}
+
+.character__card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.character__image {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #ccc;
+}
+
+.character__image img {
+    width: 100%;
+    height: 100%;;
+}
+
+.character__card__info {
+    padding: 15px;
+}
+
+.character__card__title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.character__tv__shows {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-decoration: underline;
+    color: #333;
+}
+
+.character__tv__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.character__films {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-decoration: underline;
+    color: #333;
+}
+
+.character__film__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
